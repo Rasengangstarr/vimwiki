@@ -1,0 +1,23 @@
+= vascii =
+
+I want to be able to have 'images' in my vim wiki pages. I will attempt to convert images to ascii using command line tools and paste them into documents.
+
+I have chosen to try the jp2a tool first, as it is available on pacman.
+
+== prerequisites ==
+You will first need to install jp2a. You can find instructions on how to do this for your distribution
+[[://ostechnix.com/how-to-convert-images-into-ascii-format-in-linux/|here]].
+
+
+== usage ==
+
+Place your cursor over the tags below and press C-j (control + j)
+
+[vascii:rasenLogo.png]
+
+[vascii:vim.jpg]
+
+[vascii:neo.jpg]
+
+
+don't forget to undo before you leave!

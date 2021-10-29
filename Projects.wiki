@@ -2,6 +2,7 @@
 
 == vimscript ==
 * [[vimhabits]]
+* [[vascii]]
 
 == c++ ==
 * [[tectonics]]
