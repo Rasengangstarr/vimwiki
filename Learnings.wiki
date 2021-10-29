@@ -1,0 +1,10 @@
+= Learnings =
+
+== Linux ==
+
+* [[GNU Utilities]]
+* [[Vimwiki]]
+
+== General Programming ==
+
+* Regular Expressions

@@ -1,0 +1,28 @@
+= GNU Utilities =
+
+Here are a list of some basic [[https://en.wikipedia.org/wiki/GNU|GNU]] commands.
+
+== grep ==
+
+=== Synopsis ===
+       grep [OPTION...] PATTERNS [FILE...]
+       grep [OPTION...] -e PATTERNS ... [FILE...]
+       grep [OPTION...] -f PATTERN_FILE ... [FILE...]
+
+=== Description ===
+       grep  searches  for  PATTERNS  in  each  FILE.  PATTERNS is one or
+       patterns separated by newline characters,  and  grep  prints  each
+       line that matches a pattern.
+
+       A  FILE  of  “-”  stands for standard input.  If no FILE is given,
+       recursive searches examine the working directory, and nonrecursive
+       searches read standard input.
+
+       In  addition, the variant programs egrep and fgrep are the same as
+       grep -E and grep -F, respectively.  These variants are deprecated,
+       but are provided for backward compatibility.
+
+=== Examples ===
+
+* *grep -irn 'my string'* will search for 'my string' case insensitively (i) and recursively (r), and will output the line number of each match
+* *grep -Eiw 'hello|world'* will search for the whole words hello *or* world.

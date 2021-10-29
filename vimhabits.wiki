@@ -1,0 +1,33 @@
+= vimhabits =
+
+In order to teach myself some vimscript, i would like to make some kind of marked-up habit tracker for vim. I would also like to integrate this with vimwiki, possibly utilizing the diary features for easy entering of habits.
+
+For now, the script can be accessed only directly through my .vimrc, which can be found [[https://github.com/Rasengangstarr/baserc/blob/master/.vimrc|here]]
+
+== MVP ==
+
+=== syntax ===
+
+The user can enter something like the following:
+
+/vimhabits[5]
+	eat a sandwhich
+	drink some water
+	go for a run
+	pet the cat
+vimhabits/
+
+Which will be replaced with this output:
+
+| Day | eat a sandwhich | drink some water | go for a run | pet the cat | 
+| 1   |                 |                  |              |             |
+| 2   |                 |                  |              |             |
+| 3   |                 |                  |              |             |
+| 4   |                 |                  |              |             |
+| 5   |                 |                  |              |             |
+
+== Todo ==
+
+- [ ] Handle no vimhabits in document
+- [ ] Handle multiple vimhabits in document
+- [ ] Create vimdiary integration

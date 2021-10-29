@@ -1,0 +1,17 @@
+=tectonics=
+
+This project was initially at attempt to model plate tectonics. I didn't quite get there, but learnt alot on the road.
+
+==iterations==
+
+=== 1 - solid heat dissipation ===
+
+At first I attempted to use a solid, 2d array to simulate convection.
+I wasn't able to make it work, since although i could get the heat dissipation to work according to [[https://www.thermal-engineering.org/what-is-fouriers-law-of-thermal-conduction-definition/|fourier's law]], there seems to be no way of making the heat 'split' from left to right at the top.
+
+I will insert an image here showing what i ended up with.
+
+=== 2 - particle based boiling simulation ===
+
+
+

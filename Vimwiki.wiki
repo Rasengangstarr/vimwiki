@@ -1,0 +1,20 @@
+= Vimwiki =
+
+== Leader Commands ==
+
+=== Wiki management ===
+
+* *\ww* open index file
+* *\wt* open index file in new tab
+* *\ws* list available wikis
+
+=== Diary ===
+
+* *\wi* open the diary index
+* *\w\i* update current diary index
+* *\w\w* open today's diary file
+
+=== Navigation ===
+* *<ENTER>* on links to navigate
+* *<BACKSPACE>* to navigate back
+

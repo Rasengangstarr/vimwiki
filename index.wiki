@@ -1,0 +1,9 @@
+= Knowledge Base =
+
+Welcome to my vimwiki.
+To install vimwiki, follow the instructions at https://github.com/vimwiki/vimwiki 
+For instructions on how to use it after installation, press <ENTER> on [[Vimwiki|this link]]. 
+
+	* [[Learnings]]
+	* [[diary/diary.wiki|Diary]]
+	* [[Projects]]
